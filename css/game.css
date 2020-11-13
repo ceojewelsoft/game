@@ -1,0 +1,73 @@
+.webix_hcell {
+    font-size: 11px !important;
+    padding: 0 !important;
+    text-align:center !important;
+}
+.webix_dtable .webix_ss_header td, .webix_dtable .webix_ss_footer td {
+    border-color: #DADEE0  !important;
+}
+.webix_dtable .webix_ss_body .webix_column > div,
+.webix_dtable .webix_ss_body .webix_table_cell {
+    border-right-color: lightgray !important;
+    border-left-color:  lightgray !important;
+    padding: 0 4px;
+}
+
+.datatable>.webix_scroll_cont>.webix_list_item{
+    overflow: hidden;
+    padding: 3px 2px 0px 2px !important;
+    white-space: initial;
+    line-height: 14px;
+    text-align: center;
+     
+    font-size: 11px !important;
+}
+
+.datatable>.webix_scroll_cont>.webix_selected{
+    overflow: hidden;
+    padding: 3px 2px 0px 2px !important;
+    white-space: initial;
+    line-height: 14px;
+    text-align: center;
+     
+    font-size: 11px !important;
+} 
+
+.datatable>.webix_scroll_cont>.webix_list_item.webix_selected {
+    box-shadow: inset 2px 0 #28a745 !important;
+    color:  black !important;
+    background: #BCD3B6 !important;
+}
+
+.webix_ss_filter{
+    background:white !important;
+}
+.webix_ss_filter > input {
+    height: 28px !important;
+    border: none !important;
+    font-weight: 600 !important;
+    padding-top:0px;
+}
+
+.text>div>input{
+    background: black !important;
+    color:white !important;
+    text-align: center !important;
+    font-weight:700 !important;
+}
+
+.headerBtn>div{
+    padding:5px 0px 5px 0px !important;
+}
+.headerBtn>div>button{
+    background-color: rgb(31,31,31) !important;
+    text-align: center !important;
+    color: white !important;
+    font-weight: 300 !important;
+    border: 1px solid rgb(51,51,51) !important;
+    border-radius: 0px !important;
+    font-size: 12px !important;
+}
+.headerBtn>div>button:hover{
+    background-color: #28a745 !important;
+}
